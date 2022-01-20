@@ -1,0 +1,14 @@
+.heroContainer {
+  height: 100vh;
+  display: flex;
+}
+
+.heroTextSection {
+  text-align: left;
+  margin: auto;
+  max-width: 800px;
+}
+
+.nameHighlight {
+  color: var(--green);
+}

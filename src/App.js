@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from "react";
+import "./App.css";
+import HeroSection from "./components/heroSection/HeroSection";
+import NavBar from "./components/navBar/NavBar";
+import About from "./components/about/About";
 
 function App() {
+  const aboutRef = useRef();
+
+  const handleAboutRefClick = () => {
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar handleAboutRefClick={handleAboutRefClick} />
+      <HeroSection />
+      <About aboutRef={aboutRef} />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.navBar {
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  width: 100%;
+  background-color: var(--primary);
+  height: var(--nav-height);
+}
+
+.navLinkList {
+  display: flex;
+  /* position: fixed; */
+}
+
+.navLink {
+  list-style-type: none;
+  padding-right: 70px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.navLink:hover {
+  cursor: pointer;
+  color: var(--green);
+}

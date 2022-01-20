@@ -1,0 +1,13 @@
+.rightHeroSectionContainer {
+  margin: auto;
+  /* background-color: blue; */
+}
+
+.imageContainer {
+  background-color: black;
+  padding: 20px;
+}
+
+.image {
+  width: 100%;
+}

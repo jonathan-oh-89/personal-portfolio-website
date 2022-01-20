@@ -1,0 +1,4 @@
+.aboutContainer {
+  height: 100vh;
+  padding-top: var(--nav-height);
+}
