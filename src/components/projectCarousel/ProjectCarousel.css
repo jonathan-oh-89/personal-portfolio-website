@@ -1,0 +1,20 @@
+.projectContainer {
+  margin-top: 30px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
+
+.carouselTitle {
+  font-size: 30px !important;
+  line-height: 70px;
+}
+
+.carouselContainer {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.description {
+  text-align: left;
+  font-weight: bold;
+}

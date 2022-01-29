@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro";
+  /* font-family: "Source Sans Pro"; */
+  font-family: "Lato";
   --primary: #ffffff;
   --white: #faebd7;
   --dark: #333333;
@@ -12,6 +14,9 @@ body {
   --h1-size: 100px;
   --h2-size: 80px;
   --nav-height: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+  --content-width: 1000px;
 }
 
 h1,
@@ -35,9 +40,10 @@ h1 {
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 80px;
+  font-weight: 900;
 }

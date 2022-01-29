@@ -1,0 +1,14 @@
+.resumeLink {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.resumeButtonSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.resumeLink {
+  margin: 0 20px;
+}

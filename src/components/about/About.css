@@ -1,4 +1,43 @@
-.aboutContainer {
-  height: 100vh;
+.aboutOuterContainer {
   padding-top: var(--nav-height);
+  max-width: var(--content-width);
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.aboutOuterContainer h3 {
+  margin-bottom: 20px;
+}
+
+.aboutInnerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portraitContainer {
+  width: 350px;
+  height: 350px;
+  border-radius: 0 100px;
+  background-image: url("../../assets/me-banf.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+.aboutMeText {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeText p {
+  font-size: 25px;
+  line-height: 35px;
+  text-align: left;
+  /* max-width: 500px; */
+}
+
+@media only screen and (max-width: 950px) {
+  .aboutInnerContainer {
+    grid-template-columns: 1fr;
+  }
 }
