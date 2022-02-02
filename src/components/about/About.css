@@ -6,7 +6,7 @@
 }
 
 .aboutOuterContainer h3 {
-  margin-bottom: 20px;
+  margin-bottom: var(--header-text-margin-botton);
 }
 
 .aboutInnerContainer {

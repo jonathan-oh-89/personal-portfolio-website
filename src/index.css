@@ -13,6 +13,7 @@ body {
   background-color: var(--primary);
   --h1-size: 100px;
   --h2-size: 80px;
+  --header-text-margin-botton: 30px;
   --nav-height: 75px;
   padding-left: 25px;
   padding-right: 25px;
@@ -44,6 +45,6 @@ h2 {
 }
 
 h3 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 900;
 }
